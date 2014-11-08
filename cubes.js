@@ -280,8 +280,8 @@
         this.renderer.shadowMapType = THREE.PCFSoftShadowMap;
 
         this.camera = new THREE.PerspectiveCamera(40, width / height, 1, 20000);
-        this.camera.position.set(-150, 5, 100);
-        this.camera.target = new THREE.Vector3(20, 30, 0);
+        this.camera.position.set(-137, 10, 60);
+        this.camera.target = new THREE.Vector3(20, 50, 0);
         this.camera.lookAt(this.camera.target);
 
         if(options.controls){
